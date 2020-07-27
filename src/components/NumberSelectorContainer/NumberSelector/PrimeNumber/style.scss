@@ -1,0 +1,18 @@
+.number {
+    padding: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+
+    &:hover {
+        background: blue;
+        color: white;
+        border-radius: 5px;
+    }
+}
+
+.selected {
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;;
+}
